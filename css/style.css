@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/balqis');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header_start {
+    background: url(../img/firstback.jpg);
+    height: 1080px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #000000;
+    text-decoration: none;
+
+
+}
+
+
+
+
+.second_block p:hover {
+    color: #000000;
+
+}
+
+.nav-link:visited {
+    color: #000000;
+
+}
+
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+
+
+.first_block {
+    display: flex;
+    float: left;
+    margin-top: 72px;
+
+
+}
+
+.headerpic {
+    margin-top: 10px;
+}
+
+.second_block {
+    display: flex;
+    float: right;
+    margin-top: 72px;
+
+
+}
+
+.gen h1 {
+    font-family: 'Balqis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 334px;
+
+
+    color: #000000;
+}
+
+.gen {
+
+    position: relative;
+    margin-top: 152px;
+}
+
+.gen p {
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 66px;
+    /* identical to box height */
+
+    color: #000000;
+    left: 720px;
+    bottom: 3px
+}
+
+.gen_second {
+    position: relative;
+    margin-top: 200px;
+}
+
+.gen_second h1 {
+    font-family: 'Balqis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+
+    color: #E2AB3F;
+}
+
+.gen_second p {
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+    right: 175px;
+    top: 100px;
+}
+
+.gen_second {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.carouselka {
+    float: left;
+    width: 50%;
+
+
+
+}
+
+.text_carousel {
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.sec_bl {
+    width: 50%;
+    float: right;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 55px;
+    width: 40%;
+    /* height: 700px; */
+
+}
+
+.text p {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.ourtrip {
+
+    margin-top: 200px;
+    display: flex;
+    height: 115vh;
+
+}
+
+.left_block {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+.gen_third {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.textdays {
+
+    width: 40%;
+    position: relative;
+
+
+
+}
+
+.textdays h2 {
+
+    font-family: 'Balqis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+    color: #E2AB3F;
+
+}
+
+.posma {
+    position: absolute;
+    font-family: 'Roboto Condensed';
+
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+    right: 5px;
+    top: 110px;
+}
+
+
+
+
+
+
+
+.textdays button {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 50px;
+    color: #000000;
+
+}
+
+
+
+.textdays b {
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+
+    font-size: 24px;
+    line-height: 70px;
+
+
+    color: #000000;
+
+
+}
+
+.textdays p {
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 10px;
+
+
+    color: #000000;
+
+}
+
+.hotel {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    align-items: center;
+
+}
+
+.leftside {
+    float: left;
+    position: relative;
+}
+
+.leftside img {
+    margin-top: 100px;
+}
+
+.leftside h3 {
+    font-family: 'Balqis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+
+    color: #E2AB3F;
+}
+
+.leftside p {
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    top: 100px;
+    left: 115px;
+}
+
+
+.rightside {
+    float: right;
+    width: 36%;
+    margin-top: 245px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+
+
+}
+
+
+
+
+
+.rightside p {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.col-6 {
+    padding-top: 30px;
+}
+
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+
+
+
+.rightside2 p {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.poppoper {
+    position: relative;
+}
+
+.rightside2 b {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+
+
+.leftside2 {
+    width: 50%;
+    float: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.leftside2 h4 {
+    font-family: 'Balqis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+
+    color: #E2AB3F;
+}
+
+.service {
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    left: 120px;
+    bottom: 290px;
+}
+
+
+
+.on b {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.on p {
+    width: 65%;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.data {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.dataa h5 {
+    font-family: 'Balqis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+
+    color: #E2AB3F;
+}
+
+.dataa p {
+    position: relative;
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
